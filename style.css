@@ -30,7 +30,7 @@
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
-        filter: blur(150px);
+        filter: blur(200px);
         background: var(--rcn-primary);
         overflow: hidden;
         z-index: -1;
@@ -62,10 +62,24 @@
         z-index: -1;
     }
 
+
+    .gold-circle-tr-form {
+        position: absolute;
+        top: 0px;
+        right: 25%;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+        filter: blur(250px);
+        background: #ffd70082;
+        overflow: hidden;
+        z-index: -1;
+    }
+
     .blue-circle-bl-form {
         position: absolute;
-        top: 70vw;
-        right: 52vw;
+        bottom: -60px;
+        left: 25%;
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
@@ -75,18 +89,7 @@
         z-index: -1;
     }
 
-    .gold-circle-tr-form {
-        position: absolute;
-        top: 54vw;
-        right: 13vw;
-        width: 20vw;
-        height: 20vw;
-        border-radius: 50%;
-        filter: blur(250px);
-        background: #ffd70082;
-        overflow: hidden;
-        z-index: -1;
-    }
+
 
     a {
         text-decoration: none;
@@ -394,7 +397,7 @@
     }
 
     .form-section {
-        overflow-x: hidden;
+        position: relative;
     }
 
     footer {
