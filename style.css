@@ -128,13 +128,19 @@
     }
 
     .rcn-btn-ghost {
-        background-color: transparent;
+        background-color: white;
         color: var(--rcn-primary);
         padding: 0.5rem 1rem;
         border: 2px solid var(--rcn-primary);
         border-radius: var(--rcn-btn-border-radius);
         transition: all 0.3s ease-in-out;
         cursor: pointer;
+    }
+
+    .rcn-btn-ghost:hover {
+        background-color: var(--rcn-primary);
+        color: #fff;
+        border: 2px solid var(--rcn-primary);
     }
 
     .btn-big {
@@ -324,7 +330,7 @@
 
 
     .badge {
-        background-color: rgb(27, 135, 197, 0.2);
+        background-color: rgb(217, 240, 255);
         color: var(--rcn-primary);
         padding: 0.5rem 1rem;
         border-radius: 15px;
