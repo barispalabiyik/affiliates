@@ -113,6 +113,7 @@
         border-radius: var(--rcn-btn-border-radius);
         transition: all 0.3s ease-in-out;
         cursor: pointer;
+        margin-bottom: 15px;
 
     }
 
@@ -588,8 +589,33 @@
         width: 100% !important;
     }
 
-    @media screen and (max-width: 1248px) {
 
+    @media screen and (min-width: 1249px) {
+        .only-mobile {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 1248px) {
+        .only-desktop {
+            display: none;
+        }
+
+        .hero-left {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .badge {
+            place-self: center;
+        }
+
+        .hero-section {
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
 
         .fsSubFieldGroup {
             grid-template-columns: 1fr;
