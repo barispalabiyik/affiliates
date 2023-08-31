@@ -62,6 +62,19 @@
         z-index: -1;
     }
 
+    .gold-circle-tr-check {
+        position: absolute;
+        top: -4vw;
+        right: -10vw;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+        filter: blur(150px);
+        background: #ffd70082;
+        overflow: hidden;
+        z-index: -1;
+    }
+
 
     .gold-circle-tr-form {
         position: absolute;
@@ -78,8 +91,35 @@
 
     .blue-circle-bl-form {
         position: absolute;
-        bottom: -60px;
-        left: 25%;
+        bottom: 10vw;
+        left: 40vw;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+        filter: blur(250px);
+        background: var(--rcn-primary);
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    .blue-circle-br-check {
+        position: absolute;
+        top: 8vw;
+        left: 20vw;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+        filter: blur(250px);
+        background: var(--rcn-primary);
+        overflow: hidden;
+        z-index: -1;
+    }
+
+
+    .blue-circle-bl-check {
+        position: absolute;
+        top: -14vw;
+        left: -27vw;
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
@@ -343,6 +383,16 @@
         z-index: -1;
     }
 
+    .frame-img-low {
+        position: absolute;
+        bottom: 75px;
+        left: 75px;
+        width: 600px;
+        height: 650px;
+        border: solid gold 5px;
+        z-index: -1;
+    }
+
 
     .badge {
         background-color: rgb(217, 240, 255);
@@ -393,7 +443,7 @@
         gap: 2rem;
         align-items: center;
         justify-content: center;
-        max-width: 1030px;
+        max-width: 1300px;
         margin-inline: auto;
     }
 
@@ -403,14 +453,17 @@
     }
 
     .cta h2 {
-        font-size: 2.5rem;
-        color: var(--rcn-primary);
-
+        font-size: 3rem;
+        color: black
     }
 
     .cta img {
         width: 100%;
         height: auto;
+    }
+
+    .text-content {
+        position: relative;
     }
 
     .text-content>p {
@@ -428,6 +481,18 @@
     .footer-holder {
         background-color: var(--rcn-primary);
         padding-block: 5rem;
+    }
+
+    .image-content {
+        position: relative;
+    }
+
+    .image-content img {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+
     }
 
     .svg-holder {
