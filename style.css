@@ -64,8 +64,8 @@
 
     .gold-circle-tr-check {
         position: absolute;
-        top: -4vw;
-        right: -10vw;
+        top: -50px;
+        right: 350px;
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
@@ -104,8 +104,8 @@
 
     .blue-circle-br-check {
         position: absolute;
-        top: 8vw;
-        left: 20vw;
+        top: -10vw;
+        right: -59vw;
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
@@ -118,8 +118,8 @@
 
     .blue-circle-bl-check {
         position: absolute;
-        top: -14vw;
-        left: -27vw;
+        top: 15vw;
+        left: -30vw;
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
