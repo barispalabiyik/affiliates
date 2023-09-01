@@ -109,7 +109,7 @@
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
-        filter: blur(250px);
+        filter: blur(350px);
         background: var(--rcn-primary);
         overflow: hidden;
         z-index: -1;
@@ -123,7 +123,7 @@
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
-        filter: blur(250px);
+        filter: blur(350px);
         background: var(--rcn-primary);
         overflow: hidden;
         z-index: -1;
