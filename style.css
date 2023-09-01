@@ -304,15 +304,15 @@
     .rcn-mobile-menu ul {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
         list-style: none;
         padding-inline-start: 0px;
         transition: all 0.3s ease-in-out;
     }
 
     .rcn-mobile-menu li {
-        font-size: 1.75rem;
-        margin-bottom: 25px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
         font-weight: bold;
         border-bottom: 2px solid rgb(236, 236, 236);
         width: 90%;
@@ -328,6 +328,12 @@
         place-self: flex-end;
         cursor: pointer;
         color: var(--rcn-primary);
+    }
+
+
+    .rcn-mobile-menu .close-menu:hover {
+        background-color: var(--rcn-primary);
+        color: white;
     }
 
     .show {
@@ -691,6 +697,7 @@
 
         .badge {
             place-self: center;
+            font-size: 0.6rem;
         }
 
         .hero-section {
@@ -755,6 +762,11 @@
         .title-section h2 {
 
             font-size: 2rem;
+        }
+
+        .cta h2 {
+            font-size: 2rem;
+            color: black
         }
 
         .menu-icon {
