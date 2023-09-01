@@ -361,7 +361,7 @@
     }
 
     .hero-left {
-        padding-left: 10px;
+        padding-inline: 10px;
     }
 
     .hero-right {
