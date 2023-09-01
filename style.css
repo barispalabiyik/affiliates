@@ -789,4 +789,9 @@
             grid-template-columns: 1fr;
             gap: 5px;
         }
+
+
+        header img {
+            width: 100px;
+        }
     }
