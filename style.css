@@ -397,10 +397,12 @@
 
     .frame-img-low {
         position: absolute;
-        bottom: 75px;
-        left: 75px;
-        width: 600px;
-        height: 650px;
+        bottom: 56px;
+        left: 55px;
+        width: 45vw;
+        height: 46vw;
+        max-height: 681px;
+        max-width: 630px;
         border: solid gold 5px;
         z-index: -1;
     }
